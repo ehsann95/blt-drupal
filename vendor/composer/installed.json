@@ -3457,6 +3457,57 @@
             "install-path": "../jarnaiz/behat-junit-formatter"
         },
         {
+            "name": "lcatlett/blt-ddev",
+            "version": "1.x-dev",
+            "version_normalized": "1.9999999.9999999.9999999-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcatlett/blt-ddev.git",
+                "reference": "bd5dd8b6aeba3277d62fe8171925b05914b6ad18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcatlett/blt-ddev/zipball/bd5dd8b6aeba3277d62fe8171925b05914b6ad18",
+                "reference": "bd5dd8b6aeba3277d62fe8171925b05914b6ad18",
+                "shasum": ""
+            },
+            "require": {
+                "acquia/blt": "^12 || ^13",
+                "acquia/blt-behat": "^1.4"
+            },
+            "time": "2023-12-28T02:02:13+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Lcatlett\\BltDdev\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lindsey Catlett",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "ddev integration for Acquia BLT",
+            "homepage": "https://github.com/lcatlett/blt-ddev",
+            "keywords": [
+                "acquia",
+                "blt",
+                "ddev"
+            ],
+            "support": {
+                "issues": "https://github.com/lcatlett/blt-ddev/issues",
+                "source": "https://github.com/lcatlett/blt-ddev/tree/1.x"
+            },
+            "install-path": "../lcatlett/blt-ddev"
+        },
+        {
             "name": "league/container",
             "version": "4.2.0",
             "version_normalized": "4.2.0.0",
@@ -8452,57 +8503,6 @@
     ],
     "dev": true,
     "dev-package-names": [
-        "acquia/blt",
-        "acquia/blt-behat",
-        "acquia/drupal-environment-detector",
-        "behat/behat",
-        "behat/gherkin",
-        "behat/mink",
-        "behat/mink-browserkit-driver",
-        "behat/mink-selenium2-driver",
-        "behat/transliterator",
-        "chi-teck/drupal-code-generator",
-        "consolidation/annotated-command",
-        "consolidation/comments",
-        "consolidation/config",
-        "consolidation/filter-via-dot-access-data",
-        "consolidation/log",
-        "consolidation/output-formatters",
-        "consolidation/robo",
-        "consolidation/self-update",
-        "consolidation/site-alias",
-        "consolidation/site-process",
-        "dflydev/dot-access-data",
-        "dmore/behat-chrome-extension",
-        "dmore/chrome-mink-driver",
-        "drupal/drupal-driver",
-        "drupal/drupal-extension",
-        "drush/drush",
-        "enlightn/security-checker",
-        "friends-of-behat/mink-extension",
-        "grasmash/expander",
-        "grasmash/yaml-cli",
-        "grasmash/yaml-expander",
-        "instaclick/php-webdriver",
-        "jarnaiz/behat-junit-formatter",
-        "league/container",
-        "loophp/phposinfo",
-        "nikic/php-parser",
-        "phootwork/collection",
-        "phootwork/lang",
-        "phpowermove/docblock",
-        "psy/psysh",
-        "symfony/browser-kit",
-        "symfony/config",
-        "symfony/css-selector",
-        "symfony/dom-crawler",
-        "symfony/http-client",
-        "symfony/http-client-contracts",
-        "symfony/polyfill-php81",
-        "symfony/translation",
-        "symfony/twig-bridge",
-        "textalk/websocket",
-        "thegbomb/blt-ddev",
-        "webflo/drupal-finder"
+        "thegbomb/blt-ddev"
     ]
 }

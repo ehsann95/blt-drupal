@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/recommended-project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '92c9ac46a062b7da975e16ec40ce7af15aee2c7a',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -17,7 +17,7 @@
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../acquia/blt',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'acquia/blt-behat' => array(
             'pretty_version' => 'v1.4.0',
@@ -26,7 +26,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../acquia/blt-behat',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'acquia/drupal-environment-detector' => array(
             'pretty_version' => '1.6.0',
@@ -35,7 +35,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../acquia/drupal-environment-detector',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'asm89/stack-cors' => array(
             'pretty_version' => 'v2.2.0',
@@ -53,7 +53,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../behat/behat',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/gherkin' => array(
             'pretty_version' => 'v4.9.0',
@@ -62,7 +62,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../behat/gherkin',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/mink' => array(
             'pretty_version' => 'v1.11.0',
@@ -71,7 +71,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../behat/mink',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/mink-browserkit-driver' => array(
             'pretty_version' => 'v2.2.0',
@@ -80,10 +80,10 @@
             'type' => 'mink-driver',
             'install_path' => __DIR__ . '/../behat/mink-browserkit-driver',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/mink-extension' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'replaced' => array(
                 0 => 'v2.7.5',
             ),
@@ -95,7 +95,7 @@
             'type' => 'mink-driver',
             'install_path' => __DIR__ . '/../behat/mink-selenium2-driver',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/transliterator' => array(
             'pretty_version' => 'v1.5.0',
@@ -104,7 +104,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../behat/transliterator',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'chi-teck/drupal-code-generator' => array(
             'pretty_version' => '3.3.0',
@@ -113,7 +113,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../chi-teck/drupal-code-generator',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'composer/installers' => array(
             'pretty_version' => 'v2.2.0',
@@ -140,7 +140,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/annotated-command',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/comments' => array(
             'pretty_version' => '1.0.2',
@@ -149,7 +149,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/comments',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/config' => array(
             'pretty_version' => '2.1.2',
@@ -158,7 +158,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/config',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/filter-via-dot-access-data' => array(
             'pretty_version' => '2.0.2',
@@ -167,7 +167,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/filter-via-dot-access-data',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/log' => array(
             'pretty_version' => '3.0.0',
@@ -176,7 +176,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/log',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/output-formatters' => array(
             'pretty_version' => '4.3.2',
@@ -185,7 +185,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/output-formatters',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/robo' => array(
             'pretty_version' => '4.0.6',
@@ -194,7 +194,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/robo',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/self-update' => array(
             'pretty_version' => '2.2.0',
@@ -203,7 +203,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/self-update',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/site-alias' => array(
             'pretty_version' => '4.0.1',
@@ -212,7 +212,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/site-alias',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'consolidation/site-process' => array(
             'pretty_version' => '5.2.0',
@@ -221,7 +221,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../consolidation/site-process',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'dflydev/dot-access-data' => array(
             'pretty_version' => 'v3.0.2',
@@ -230,7 +230,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../dflydev/dot-access-data',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'dmore/behat-chrome-extension' => array(
             'pretty_version' => '1.4.0',
@@ -239,7 +239,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../dmore/behat-chrome-extension',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'dmore/chrome-mink-driver' => array(
             'pretty_version' => '2.9.2',
@@ -248,7 +248,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../dmore/chrome-mink-driver',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'doctrine/annotations' => array(
             'pretty_version' => '1.14.3',
@@ -464,7 +464,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../drupal/drupal-driver',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'drupal/drupal-extension' => array(
             'pretty_version' => 'v5.0.0',
@@ -473,12 +473,12 @@
             'type' => 'behat-extension',
             'install_path' => __DIR__ . '/../drupal/drupal-extension',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '92c9ac46a062b7da975e16ec40ce7af15aee2c7a',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -491,7 +491,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../drush/drush',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'egulias/email-validator' => array(
             'pretty_version' => '4.0.2',
@@ -509,7 +509,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../enlightn/security-checker',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'friends-of-behat/mink-extension' => array(
             'pretty_version' => 'v2.7.5',
@@ -518,7 +518,7 @@
             'type' => 'behat-extension',
             'install_path' => __DIR__ . '/../friends-of-behat/mink-extension',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'grasmash/expander' => array(
             'pretty_version' => '3.0.0',
@@ -527,7 +527,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../grasmash/expander',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'grasmash/yaml-cli' => array(
             'pretty_version' => '3.1.0',
@@ -536,7 +536,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../grasmash/yaml-cli',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'grasmash/yaml-expander' => array(
             'pretty_version' => '3.0.2',
@@ -545,7 +545,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../grasmash/yaml-expander',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '7.8.1',
@@ -581,7 +581,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../instaclick/php-webdriver',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'jarnaiz/behat-junit-formatter' => array(
             'pretty_version' => 'v1.3.2',
@@ -590,7 +590,16 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../jarnaiz/behat-junit-formatter',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
+        ),
+        'lcatlett/blt-ddev' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'reference' => 'bd5dd8b6aeba3277d62fe8171925b05914b6ad18',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../lcatlett/blt-ddev',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'league/container' => array(
             'pretty_version' => '4.2.0',
@@ -599,7 +608,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/container',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'loophp/phposinfo' => array(
             'pretty_version' => '1.8.0',
@@ -608,7 +617,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../loophp/phposinfo',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
             'pretty_version' => '2.8.1',
@@ -635,10 +644,10 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'orno/di' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'replaced' => array(
                 0 => '~2.0',
             ),
@@ -686,7 +695,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phootwork/collection',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'phootwork/lang' => array(
             'pretty_version' => 'v3.2.2',
@@ -695,16 +704,16 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phootwork/lang',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'php-http/async-client-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '*',
             ),
         ),
         'php-http/client-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '*',
             ),
@@ -716,7 +725,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpowermove/docblock',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'psr/cache' => array(
             'pretty_version' => '3.0.0',
@@ -739,8 +748,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.1|2.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(
@@ -825,7 +834,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../psy/psysh',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'ralouphie/getallheaders' => array(
             'pretty_version' => '3.0.3',
@@ -858,7 +867,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/browser-kit',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/config' => array(
             'pretty_version' => 'v6.4.0',
@@ -867,7 +876,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/config',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/console' => array(
             'pretty_version' => 'v6.4.2',
@@ -885,7 +894,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/css-selector',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/dependency-injection' => array(
             'pretty_version' => 'v6.4.2',
@@ -912,7 +921,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/dom-crawler',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/error-handler' => array(
             'pretty_version' => 'v6.4.0',
@@ -972,7 +981,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-client',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/http-client-contracts' => array(
             'pretty_version' => 'v3.4.0',
@@ -981,10 +990,10 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-client-contracts',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/http-client-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '3.0',
             ),
@@ -1104,7 +1113,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-php81',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/polyfill-php83' => array(
             'pretty_version' => 'v1.28.0',
@@ -1182,7 +1191,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/translation-contracts' => array(
             'pretty_version' => 'v3.4.1',
@@ -1194,7 +1203,7 @@
             'dev_requirement' => false,
         ),
         'symfony/translation-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '2.3|3.0',
             ),
@@ -1206,7 +1215,7 @@
             'type' => 'symfony-bridge',
             'install_path' => __DIR__ . '/../symfony/twig-bridge',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/validator' => array(
             'pretty_version' => 'v6.4.2',
@@ -1251,7 +1260,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../textalk/websocket',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'thegbomb/blt-ddev' => array(
             'pretty_version' => '1.0.1',
@@ -1278,7 +1287,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../webflo/drupal-finder',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
     ),
 );
